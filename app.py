@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from io import BytesIO
+
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
@@ -483,3 +483,4 @@ with tab4:
     st.caption("Ringkasan ini bisa kamu sesuaikan lagi dengan gaya bahasa dan format tugas dosen.")
 
 # ===================== Selesai =====================
+
